@@ -3,6 +3,7 @@ import {Banner} from "./components/Banner"
 import About from "./components/About";
 import Service from "./components/Service";
 import {Contact} from "./components/Contact"
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Service />
       <Contact />
+      <Footer />
     </div>
   );
 }

@@ -610,3 +610,29 @@ hero-image a:hover, .hero-image a:active{
     font-size: 0.8rem;
   }
 } 
+
+
+/* ************************************************************ */
+
+/* Footer COMPONENT */
+
+.footer {
+  width: 100%;
+  background-color: #00999c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer p {
+  font-size: 12px;
+  padding: 10px;
+  color:#000000;
+  letter-spacing: 2px;
+}
+
+.footer p:hover {
+  color: white;
+  cursor: pointer;
+}

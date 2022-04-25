@@ -5,20 +5,20 @@ import Design from "./assets/paint-roller.png"
 
 export default function Service() {
     return (
-        <div class="wrapper" id="services">
-            <div class="header">
+        <div className="wrapper" id="services">
+            <div className="header">
                 <h1>Services</h1>
             </div>
-            <div class="box_wrapper">
-                <div class="box_row">
-                    <div class="box_col box_col_1">
-                        <div class="box_img">
+            <div className="box_wrapper">
+                <div className="box_row">
+                    <div className="box_col box_col_1">
+                        <div className="box_img">
                             <img src={Project} alt="Project" />
                         </div>
-                        <div class="box_title">
+                        <div className="box_title">
                             <p>Project Management</p>
                         </div>
-                        <div class="box_des">
+                        <div className="box_des">
                             We have a specialize team of project managers that handle every
                             aspect of your projects from initial phase to completion and we also have,
                             a maintenace team that are solely dedicated to ensuring that your projects are delivered 
@@ -28,14 +28,14 @@ export default function Service() {
                             or emergencies while your projects are being deployed or integerated.
                         </div>
                     </div>
-                    <div class="box_col box_col_2">
-                        <div class="box_img">
+                    <div className="box_col box_col_2">
+                        <div className="box_img">
                             <img src={Code} alt="code" />
                         </div>
-                        <div class="box_title">
+                        <div className="box_title">
                             <p>Web Development</p>
                         </div>
-                        <div class="box_des">
+                        <div className="box_des">
                             we want to see you win, thats why at WrapUP we provide your with state of the art 
                             web development that covers, every aspect of your company or organisationals needs. from 
                             websites,  to web app, software development, mobile apps, APIs and any aspect of web or software
@@ -45,14 +45,14 @@ export default function Service() {
                             area of demand. You can trust us to handle your bussiness with the highest level of has professionalism and capabilities.
                         </div>
                     </div>
-                    <div class="box_col box_col_3">
-                        <div class="box_img">
+                    <div className="box_col box_col_3">
+                        <div className="box_img">
                             <img src={Design} alt="UiUx" />
                         </div>
-                        <div class="box_title">
+                        <div className="box_title">
                             <p>UI/UX</p>
                         </div>
-                        <div class="box_des">
+                        <div className="box_des">
                             Our UI/UX designs aim to develop a whole language that will be 
                             consistent throughout every detail of the brand's products. Anything from color choice,
                              to illustrations, videos and sound can be used to evoke sensations and communicate a 
