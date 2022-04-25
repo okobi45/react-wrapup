@@ -475,6 +475,7 @@ hero-image a:hover, .hero-image a:active{
   max-width: 90%;
   min-width: 40%;
   max-height: 310px;
+  min-height: 200px;
 }
 
 .form-btn {
@@ -484,7 +485,7 @@ hero-image a:hover, .hero-image a:active{
   border: none;
   cursor: pointer;
   outline: none;
-  background-color: #c1c1c1;
+  background-color: #00e6e6;
   color: #fff;
   transition: .3s;
   font-size: 20px;

@@ -5,7 +5,7 @@ import Design from "./assets/paint-roller.png"
 
 export default function Service() {
     return (
-        <div class="wrapper">
+        <div class="wrapper" id="services">
             <div class="header">
                 <h1>Services</h1>
             </div>

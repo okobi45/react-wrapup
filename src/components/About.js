@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
     return(
-        <div class="about">
+        <div class="about" id="about">
             <div class="inner-section">
                 <h1>About Us</h1>
                 <p class="text">
@@ -13,7 +13,7 @@ export default function About() {
                      they trusted us to guide them from start to finish.
                 </p>
                 <div class="skills">
-                    <button>Contact Us</button>
+                    <button id="contact">Contact Us</button>
                 </div>
             </div>
         </div>
