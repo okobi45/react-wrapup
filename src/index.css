@@ -468,7 +468,8 @@ hero-image a:hover, .hero-image a:active{
 
 .form-input:focus {
   background-color: #fff;
-  border: 2px solid rgba(0, 0, 255, 0.47);
+  /* border: 2px solid rgba(0, 0, 255, 0.47); */
+  border: 2px solid #00e6e6;
 }
 
 .area {
@@ -485,7 +486,7 @@ hero-image a:hover, .hero-image a:active{
   border: none;
   cursor: pointer;
   outline: none;
-  background-color: #00e6e6;
+  background-color: #00999c;
   color: #fff;
   transition: .3s;
   font-size: 20px;
@@ -493,7 +494,7 @@ hero-image a:hover, .hero-image a:active{
 
 .form-btn:hover {
   /* background: linear-gradient(90deg, blue 30%, purple 70%); */
-  background: #00999c;
+  background: #00e6e6;
 }
 
 
