@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import {Banner} from "./components/Banner"
 import About from "./components/About";
 import Service from "./components/Service";
+import {Contact} from "./components/Contact"
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Banner />
       <About />
       <Service />
+      <Contact />
     </div>
   );
 }
