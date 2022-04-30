@@ -621,13 +621,64 @@ hero-image a:hover, .hero-image a:active{
 .footer {
   width: 100%;
   background-color: #00999c;
+  border: 1px solid red;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 30px;
+  padding: 2rem 0px;
 }
 
-.footer p {
+.footer-logo {
+  /* border: 1px solid red; */
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.footer-logo p {
+  font-size: 2rem;
+}
+
+.footer-nav {
+  width: 30%;
+  text-transform: capitalize;
+}
+
+.footer-nav ul {
+  list-style-type: none;
+}
+
+/* 
+.footer-nav li {
+  
+} */
+
+
+.footer-nav a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.footer-nav a:hover {
+  color: #b6e8e8;
+  cursor: pointer;
+}
+
+.footer-credit {
+  width: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+/* .footer p {
   font-size: 12px;
   padding: 15px;
   color:#000000;
@@ -637,4 +688,49 @@ hero-image a:hover, .hero-image a:active{
 .footer p:hover {
   color: white;
   cursor: pointer;
-}
+} */
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .footer .footer-logo{
+    display: none;
+  }
+
+  .footer .footer-nav{
+    display: none;
+  }
+
+  .footer > .footer-credit {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    width: 90%;
+  }
+} 
+
+@media only screen and (max-width: 350px) {
+
+  .footer .footer-logo{
+    display: none;
+  }
+
+  .footer .footer-nav{
+    display: none;
+  }
+
+  .footer > .footer-credit {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    width: 90%;
+  }
+} 
