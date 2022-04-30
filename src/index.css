@@ -621,7 +621,6 @@ hero-image a:hover, .hero-image a:active{
 .footer {
   width: 100%;
   background-color: #00999c;
-  border: 1px solid red;
   display: flex;
   margin-top: 30px;
   padding: 2rem 0px;
