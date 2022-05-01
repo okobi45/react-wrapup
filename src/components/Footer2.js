@@ -33,7 +33,7 @@ export default function Footer2(){
                     </div>
                     <div>
                         <i class="fa fa-envelope"></i>
-                        <p><a href="mailto:okobieigbe@gmail.com">wrapup22@gmail.com</a></p>
+                        <p><a href="mailto:okobieigbe@gmail.com">info@wrapup.com</a></p>
                     </div>
                 </div>
                 <div class="footer-right">
