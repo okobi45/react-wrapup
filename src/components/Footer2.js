@@ -41,7 +41,7 @@ export default function Footer2(){
                         <span>About the company</span>
                         <strong>WrapUP</strong> is an online company that helps
                         companies, organisations and marketing firms achieve their
-                        full potentials by provided custom support services on 
+                        full potentials by providing custom support services on 
                         demand.
                     </p>
                     <div class="footer-icons">
