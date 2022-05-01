@@ -7,7 +7,7 @@ export default function Service() {
     return (
         <div className="wrapper" id="service">
             <div className="header">
-                <h1>Services</h1>
+                <h1>Service</h1>
             </div>
             <div className="box_wrapper">
                 <div className="box_row">
@@ -36,13 +36,13 @@ export default function Service() {
                             <p>Web Development</p>
                         </div>
                         <div className="box_des">
-                            we want to see you win, thats why at WrapUP we provide your with state of the art 
-                            web development that covers, every aspect of your company or organisationals needs. from 
-                            websites,  to web app, software development, mobile apps, APIs and any aspect of web or software
-                            development requirements.
+                            We want to see you win, thats why at WrapUP we provide you with state of the art 
+                            web development that covers, every aspect of your company or organisations need. from 
+                            websites,  to web apps, software development, mobile apps, APIs and any aspect of web or software
+                            development requirement.
 
-                            We have a deicated team commitment to surpassing expectations and delivering a satisfactory result in any 
-                            area of demand. You can trust us to handle your bussiness with the highest level of has professionalism and capabilities.
+                            We have a deicated team commited to surpassing your expectations and delivering a satisfactory result in any 
+                            area of demand. You can trust us to handle your business with the highest level of efficiency and professionalism.
                         </div>
                     </div>
                     <div className="box_col box_col_3">
@@ -53,12 +53,12 @@ export default function Service() {
                             <p>UI/UX</p>
                         </div>
                         <div className="box_des">
-                            Our UI/UX designs aim to develop a whole language that will be 
-                            consistent throughout every detail of the brand's products. Anything from color choice,
+                            Our UI/UX design aims to develop an innovative concept that will be 
+                            consistent throughout every detail of the brand's product. Everything from color choice,
                              to illustrations, videos and sound can be used to evoke sensations and communicate a 
                              specific vibe. When it comes to visual design, there are infinite ways to conjure up emotional 
                             connections with users. The aim here is to spark a connection with the user, creating something that 
-                            they can really understand. By basing a website or app's structure on a mental model (or in other words,
+                            they can really understand and relate with. By basing a website or app's structure on a mental model (or in other words,
                              something that we're familiar with from our everyday lives and experiences), the user is more likely to
                               feel a cultural or emotional connection.
                         </div>
