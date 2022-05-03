@@ -42,7 +42,7 @@ export default function Service() {
                             development requirement.
 
                             We have a deicated team commited to surpassing your expectations and delivering a satisfactory result in any 
-                            area of demand. You can trust us to handle your business with the highest level of efficiency and professionalism.
+                            area of demand. You can trust us to handle every aspect of your business with the highest level of efficiency and professionalism.
                         </div>
                     </div>
                     <div className="box_col box_col_3">
